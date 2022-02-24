@@ -185,7 +185,7 @@ namespace JoyMouse.Services
         public event EventHandler<ControllerContainerEventArgs>? ControllerAdded;
         public event EventHandler<ControllerContainerEventArgs>? ControllerRemoved;
 
-        public event EventHandler ExitButtonPressed;
-        public event EventHandler SettingsButtonPressed;
+        public event EventHandler? ExitButtonPressed;
+        public event EventHandler? SettingsButtonPressed;
     }
 }
